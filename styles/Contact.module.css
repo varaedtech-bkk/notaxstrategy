@@ -1,0 +1,14 @@
+.contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
