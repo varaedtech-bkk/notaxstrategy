@@ -1,0 +1,28 @@
+
+.success {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.success h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.success p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.homeButton {
+  background: #0070f3;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+}

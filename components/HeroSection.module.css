@@ -1,25 +1,92 @@
-/* styles/HeroSection.module.css */
+
 .hero {
-    text-align: center;
-    padding: 4rem 2rem;
-    background-color: #f9f9f9;
-  }
-  
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 8rem 2rem 4rem;
+  text-align: center;
+  position: relative;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.9;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.primaryButton {
+  background-color: #00c853;
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.secondaryButton {
+  background-color: transparent;
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.trustSignals {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.trustSignals span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
   }
   
   .hero p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
   }
   
-  .ctaButton {
-    padding: 0.75rem 1.5rem;
-    background-color: #0070f3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  .cta {
+    flex-direction: column;
   }
+  
+  .trustSignals {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
